@@ -1,0 +1,235 @@
+1
+00:00:00,450 --> 00:00:01,700
+Imagine losing money
+
+2
+00:00:01,700 --> 00:00:02,460
+to a trader
+
+3
+00:00:02,460 --> 00:00:03,551
+you can't even see.
+
+4
+00:00:03,711 --> 00:00:04,750
+Because in India's
+
+5
+00:00:04,750 --> 00:00:05,440
+OPTIONS MARKET
+
+6
+00:00:05,440 --> 00:00:06,625
+you're not just competing
+
+7
+00:00:06,625 --> 00:00:08,204
+with other humans anymore.
+
+8
+00:00:08,284 --> 00:00:09,195
+You're competing with
+
+9
+00:00:09,195 --> 00:00:09,805
+ALGORITHMS
+
+10
+00:00:09,805 --> 00:00:11,060
+that can execute trades
+
+11
+00:00:11,060 --> 00:00:12,604
+in fractions of a second.
+
+12
+00:00:12,684 --> 00:00:13,345
+And the numbers
+
+13
+00:00:13,345 --> 00:00:14,124
+are crazy.
+
+14
+00:00:14,284 --> 00:00:15,930
+According to a SEBI study
+
+15
+00:00:15,930 --> 00:00:17,000
+reported by Bloomberg,
+
+16
+00:00:17,000 --> 00:00:18,485
+Indian retail traders lost
+
+17
+00:00:18,485 --> 00:00:20,120
+around $33 BILLION
+
+18
+00:00:20,120 --> 00:00:21,490
+in equity derivatives
+
+19
+00:00:21,490 --> 00:00:22,365
+over four years
+
+20
+00:00:22,365 --> 00:00:24,107
+through March 2025.
+
+21
+00:00:24,307 --> 00:00:25,675
+At the same time,
+
+22
+00:00:25,675 --> 00:00:27,135
+algorithm-driven trading companies
+
+23
+00:00:27,135 --> 00:00:28,920
+made around $7 BILLION
+
+24
+00:00:28,920 --> 00:00:29,700
+in gross profit
+
+25
+00:00:29,700 --> 00:00:30,995
+from India's options market
+
+26
+00:00:30,995 --> 00:00:32,748
+in just one financial year.
+
+27
+00:00:32,948 --> 00:00:34,065
+So how do these firms
+
+28
+00:00:34,065 --> 00:00:35,236
+get such an advantage?
+
+29
+00:00:35,436 --> 00:00:36,215
+SPEED
+
+30
+00:00:36,375 --> 00:00:37,775
+Their computers can analyse
+
+31
+00:00:37,775 --> 00:00:39,310
+market data and execute trades
+
+32
+00:00:39,310 --> 00:00:40,285
+in MICROSECONDS
+
+33
+00:00:40,285 --> 00:00:41,245
+or even faster —
+
+34
+00:00:41,245 --> 00:00:42,370
+while you're still looking
+
+35
+00:00:42,370 --> 00:00:44,050
+at the chart on your phone.
+
+36
+00:00:44,150 --> 00:00:45,755
+And these firms spend millions
+
+37
+00:00:45,755 --> 00:00:47,185
+on technology, servers
+
+38
+00:00:47,185 --> 00:00:48,650
+and ultra-fast connections
+
+39
+00:00:48,650 --> 00:00:49,855
+just to gain tiny
+
+40
+00:00:49,855 --> 00:00:50,977
+speed advantages.
+
+41
+00:00:51,177 --> 00:00:51,970
+But here's the
+
+42
+00:00:51,970 --> 00:00:52,861
+important part…
+
+43
+00:00:53,121 --> 00:00:54,630
+This doesn't automatically mean
+
+44
+00:00:54,630 --> 00:00:56,230
+algorithms are stealing money
+
+45
+00:00:56,230 --> 00:00:57,417
+from retail traders.
+
+46
+00:00:57,537 --> 00:00:59,120
+High-frequency trading can also
+
+47
+00:00:59,120 --> 00:01:00,020
+improve liquidity
+
+48
+00:01:00,020 --> 00:01:01,904
+and make markets more efficient.
+
+49
+00:01:02,064 --> 00:01:03,905
+The bigger issue is the massive
+
+50
+00:01:03,905 --> 00:01:04,695
+TECHNOLOGY GAP
+
+51
+00:01:04,695 --> 00:01:05,930
+between a retail trader
+
+52
+00:01:05,930 --> 00:01:07,788
+and a professional trading firm.
+
+53
+00:01:08,008 --> 00:01:09,125
+So next time you see
+
+54
+00:01:09,125 --> 00:01:10,423
+a stock move suddenly…
+
+55
+00:01:10,583 --> 00:01:11,327
+Remember:
+
+56
+00:01:11,527 --> 00:01:12,880
+There might be a machine
+
+57
+00:01:12,880 --> 00:01:13,835
+trading against you
+
+58
+00:01:13,835 --> 00:01:15,180
+before you even realise
+
+59
+00:01:15,180 --> 00:01:15,940
+what's happening.
