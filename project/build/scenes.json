@@ -1,0 +1,109 @@
+{
+  "fps": 30,
+  "size": [
+    1080,
+    1920
+  ],
+  "duration": 82.597,
+  "voiceover": "ElevenLabs_2026-09-22T15_06_55_Vanishree - Energetic Indian English_pvc_s50_m2.mp3",
+  "scenes": [
+    {
+      "scene": 1,
+      "start": 0.0,
+      "end": 4.32,
+      "line": 1,
+      "text": "What if India could track every drone flying through its airspace?"
+    },
+    {
+      "scene": 2,
+      "start": 4.32,
+      "end": 10.578,
+      "line": 2,
+      "text": "The Indian Air Force has demonstrated a new indigenous system called... Vayu UTtaM."
+    },
+    {
+      "scene": 3,
+      "start": 10.578,
+      "end": 15.028,
+      "line": 3,
+      "text": "It was showcased during Dronathon 2026, at Pokhran, Rajasthan."
+    },
+    {
+      "scene": 4,
+      "start": 15.028,
+      "end": 18.004,
+      "line": 4,
+      "text": "So... what does it actually do?"
+    },
+    {
+      "scene": 5,
+      "start": 18.004,
+      "end": 28.043,
+      "line": 5,
+      "text": "Vayu UTtaM is an Unmanned Traffic Management system, designed to detect and track both military and civilian drones, in real time."
+    },
+    {
+      "scene": 6,
+      "start": 28.043,
+      "end": 31.022,
+      "line": 6,
+      "text": "And here's where it gets interesting."
+    },
+    {
+      "scene": 7,
+      "start": 31.022,
+      "end": 41.027,
+      "line": 7,
+      "text": "As the number of drones in the sky keeps increasing, it becomes harder to know which drone is authorised..."
+    },
+    {
+      "scene": 8,
+      "start": 41.027,
+      "end": 44.1,
+      "line": 8,
+      "text": "and which one could be a potential threat."
+    },
+    {
+      "scene": 9,
+      "start": 44.1,
+      "end": 54.787,
+      "line": 9,
+      "text": "Vayu UTtaM is designed to help manage this increasingly crowded airspace, and support the identification of unauthorised or rogue drones."
+    },
+    {
+      "scene": 10,
+      "start": 54.787,
+      "end": 60.199,
+      "line": 10,
+      "text": "The system could potentially have applications beyond the military too..."
+    },
+    {
+      "scene": 11,
+      "start": 60.199,
+      "end": 65.968,
+      "line": 11,
+      "text": "including civil aviation, critical infrastructure, and public safety."
+    },
+    {
+      "scene": 12,
+      "start": 65.968,
+      "end": 72.791,
+      "line": 12,
+      "text": "And this is just one of the technologies India showcased at Dronathon 2026."
+    },
+    {
+      "scene": 13,
+      "start": 72.791,
+      "end": 77.113,
+      "line": 13,
+      "text": "The future of airspace may not just be about fighter jets..."
+    },
+    {
+      "scene": 14,
+      "start": 77.113,
+      "end": 82.597,
+      "line": 14,
+      "text": "but also about who controls the drones in the sky."
+    }
+  ]
+}

@@ -1,0 +1,187 @@
+1
+00:00:00,000 --> 00:00:01,656
+What if India could track
+
+2
+00:00:01,656 --> 00:00:03,312
+every drone flying through
+
+3
+00:00:03,312 --> 00:00:04,140
+its airspace?
+
+4
+00:00:04,540 --> 00:00:06,063
+The Indian Air Force has
+
+5
+00:00:06,063 --> 00:00:07,587
+demonstrated a new
+
+6
+00:00:07,587 --> 00:00:09,110
+indigenous system
+
+7
+00:00:09,110 --> 00:00:10,380
+called... Vayu UTtaM.
+
+8
+00:00:10,820 --> 00:00:12,508
+It was showcased during
+
+9
+00:00:12,508 --> 00:00:13,714
+Dronathon 2026, at
+
+10
+00:00:13,714 --> 00:00:14,920
+Pokhran, Rajasthan.
+
+11
+00:00:15,160 --> 00:00:16,420
+So... what does it
+
+12
+00:00:16,420 --> 00:00:17,680
+actually do?
+
+13
+00:00:18,400 --> 00:00:20,417
+Vayu UTtaM is an Unmanned
+
+14
+00:00:20,417 --> 00:00:22,434
+Traffic Management system,
+
+15
+00:00:22,434 --> 00:00:24,198
+designed to detect and
+
+16
+00:00:24,198 --> 00:00:25,963
+track both military and
+
+17
+00:00:25,963 --> 00:00:27,980
+civilian drones, in real time.
+
+18
+00:00:28,120 --> 00:00:29,656
+And here's where it gets
+
+19
+00:00:29,656 --> 00:00:30,680
+interesting.
+
+20
+00:00:31,440 --> 00:00:34,028
+As the number of drones in
+
+21
+00:00:34,028 --> 00:00:35,968
+the sky keeps increasing,
+
+22
+00:00:35,968 --> 00:00:38,556
+it becomes harder to know
+
+23
+00:00:38,556 --> 00:00:39,526
+which drone is
+
+24
+00:00:39,526 --> 00:00:40,820
+authorised...
+
+25
+00:00:41,280 --> 00:00:42,756
+and which one could be a
+
+26
+00:00:42,756 --> 00:00:43,740
+potential threat.
+
+27
+00:00:44,540 --> 00:00:46,548
+Vayu UTtaM is designed to
+
+28
+00:00:46,548 --> 00:00:47,552
+help manage this
+
+29
+00:00:47,552 --> 00:00:49,058
+increasingly crowded
+
+30
+00:00:49,058 --> 00:00:50,564
+airspace, and support the
+
+31
+00:00:50,564 --> 00:00:52,321
+identification of
+
+32
+00:00:52,321 --> 00:00:54,078
+unauthorised or rogue
+
+33
+00:00:54,078 --> 00:00:54,580
+drones.
+
+34
+00:00:55,040 --> 00:00:56,016
+The system could
+
+35
+00:00:56,016 --> 00:00:57,236
+potentially have
+
+36
+00:00:57,236 --> 00:00:58,700
+applications beyond the
+
+37
+00:00:58,700 --> 00:00:59,920
+military too...
+
+38
+00:01:00,540 --> 00:01:02,498
+including civil aviation,
+
+39
+00:01:02,498 --> 00:01:04,211
+critical infrastructure,
+
+40
+00:01:04,211 --> 00:01:05,680
+and public safety.
+
+41
+00:01:06,320 --> 00:01:08,120
+And this is just one of
+
+42
+00:01:08,120 --> 00:01:10,220
+the technologies India
+
+43
+00:01:10,220 --> 00:01:12,620
+showcased at Dronathon 2026.
+
+44
+00:01:13,000 --> 00:01:14,848
+The future of airspace may
+
+45
+00:01:14,848 --> 00:01:16,960
+not just be about fighter jets...
+
+46
+00:01:17,300 --> 00:01:18,697
+but also about who
+
+47
+00:01:18,697 --> 00:01:20,560
+controls the drones in the sky.

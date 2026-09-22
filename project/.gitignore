@@ -1,0 +1,8 @@
+# Build intermediates: all regenerable from src/ and the supplied assets.
+build/cache/
+build/_supplied.wav
+build/narration.wav
+build/mix.wav
+build/render.log
+__pycache__/
+*.pyc

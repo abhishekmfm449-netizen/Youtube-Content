@@ -1,0 +1,64 @@
+{
+  "0fe375d39f641be429537c507b7914d96f14493e6c120dd8ebffcc12b987e9ba": {
+    "file": "ElevenLabs_2026-09-22T15_06_55_Vanishree - Energetic Indian English_pvc_s50_m2.mp3",
+    "note": "Line boundaries read off the recording's pause map and checked line by line against the script. Regenerate by running src/voiceover.py without this file and verifying build/timeline.json.",
+    "bounds": [
+      [
+        0.0,
+        4.14
+      ],
+      [
+        4.54,
+        10.38
+      ],
+      [
+        10.82,
+        14.92
+      ],
+      [
+        15.16,
+        17.68
+      ],
+      [
+        18.4,
+        27.98
+      ],
+      [
+        28.12,
+        30.68
+      ],
+      [
+        31.44,
+        40.82
+      ],
+      [
+        41.28,
+        43.74
+      ],
+      [
+        44.54,
+        54.58
+      ],
+      [
+        55.04,
+        59.92
+      ],
+      [
+        60.54,
+        65.68
+      ],
+      [
+        66.32,
+        72.62
+      ],
+      [
+        73.0,
+        76.96
+      ],
+      [
+        77.3,
+        80.56
+      ]
+    ]
+  }
+}
