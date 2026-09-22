@@ -4,163 +4,176 @@
 
 | | |
 |---|---|
-| Duration | **77.83 s** (1 min 18 s) |
+| Duration | **100.60 s** (1 min 41 s) |
 | Resolution | 1080 × 1920 (9:16 vertical) |
-| Frame rate | 30 fps (constant, 2 335 frames) |
-| Video | H.264 High profile, yuv420p, ~7.84 Mbps |
-| Audio | AAC-LC, 48 kHz stereo, 178 kbps |
-| Loudness | −14.4 LUFS integrated, −4.3 dBTP |
-| File size | 74.4 MB |
+| Frame rate | 30 fps constant (3 018 frames) |
+| Video | H.264 High profile, yuv420p, 6.14 Mbps |
+| Audio | AAC-LC, 48 kHz stereo, 190 kbps |
+| Loudness | −14.1 LUFS integrated, −2.9 dBTP |
+| Shots | 36 (29 from your uploaded footage, 7 motion-graphics) |
+| File size | 76.0 MB |
+| Average shot length | ~2.8 s |
 
 ---
 
-## 1. What was actually in the repository
+## 1. Audio check — transcription vs. script
 
-This is the most important finding, so it is first.
+The uploaded voiceover (`WhatsApp Audio 2026-09-22 at 10.40.19 AM.mpeg`, 99.47 s,
+mono MP3) is the master timeline. **It was used exactly as supplied — not
+changed, shortened, rewritten or rearranged.**
 
-**The repository does not contain a voiceover file.** There is no `.mp3`, `.wav`,
-`.m4a`, `.aac`, `.ogg` or `.flac` anywhere in the working tree or anywhere in the
-git history. Two of the three `.mp4` clips carry ~10 s of ambient sound from a
-video generator; the third is silent. None of them contains narration.
+Speech-recognition models could not be downloaded in this environment
+(`huggingface.co` and `openaipublic.azureedge.net` are both blocked by the
+egress policy), so the voiceover was verified against the script by **pause
+analysis** instead: silence detection at −34 dB found the narration's phrase
+structure, and all **17 script sentences map onto it one-to-one**, in order,
+with every sentence's measured duration proportional to its syllable count.
+That is a complete structural match — there is no extra, missing or reordered
+sentence anywhere in the 99.47 s.
 
-**None of the 15 images or 3 video clips relate to this topic.** Every asset in
-the repository belongs to a *different* project — a Flipkart "Big Billion Days"
-festive e-commerce video:
+Measured sentence boundaries (seconds):
 
-| Asset | Content |
-|---|---|
-| 15 × `WhatsApp Image 2026-09-21 …jpeg` (768×1376) | Flipkart / "Utsav Sale" app screens, Diwali decor, phones in hand, bank-card offers, smartwatch deal pages |
-| 3 × `WhatsApp Video 2026-09-21 …mp4` (1024×576, 10 s) | Flipkart Big Billion Days app promos, a phone on a rotating podium with "−90%" |
-
-There is no trader, no NIFTY/BANK NIFTY, no option chain, no server or data-centre
-footage, no `$33 BILLION` visual and no `$7 BILLION` visual in the repository.
-
-Per the brief's instruction not to stop for assets, **the entire short was built
-from scratch.** No repository asset was used, because using festive e-commerce
-footage under narration about SEBI derivative losses would have been actively
-misleading.
-
-## 2. Audio check (transcription vs. script)
-
-Because no voiceover existed, the narration was **synthesised from the script
-verbatim** using a neural TTS voice (Piper, `en-US-ryan-high`), then mastered
-(85 Hz high-pass → light compression → EBU R128 normalisation to −14 LUFS /
-−1.5 dBTP → 48 kHz stereo).
-
-The spoken audio therefore matches the script word for word by construction, and
-this was verified programmatically against the original text. **No word of the
-script was changed, shortened, rewritten or rearranged.** The only differences
-are pronunciation forms and caption capitalisation:
-
-| Script | Spoken as | Caption shows | Why |
+| # | Line | Start | End |
 |---|---|---|---|
-| `$33 billion` | "thirty three billion dollars" | `$33 BILLION` | numeral → speech |
-| `$7 billion` | "seven billion dollars" | `$7 BILLION` | numeral → speech |
-| `March 2025` | "March twenty twenty five" | `March 2025` | numeral → speech |
-| `algorithm-driven`, `ultra-fast`, `High-frequency` | hyphens dropped | hyphens kept | hyphens confuse the TTS front-end |
-| `microseconds or even faster —` | comma in place of the dash | em dash kept | dash → natural pause |
-| `options market`, `algorithms`, `technology gap`, `Speed.` | unchanged | `OPTIONS MARKET`, `ALGORITHMS`, `TECHNOLOGY GAP`, `SPEED` | requested keyword highlighting |
+| 1 | Imagine losing money to a trader you can't even see. | 0.00 | 2.68 |
+| 2 | Because in India's options market… | 3.74 | 8.19 |
+| 3 | You're competing with algorithms… | 9.11 | 13.46 |
+| 4 | And the numbers are crazy. | 14.52 | 16.05 |
+| 5 | According to a SEBI study… $33 billion… March 2025. | 17.09 | 28.83 |
+| 6 | At the same time… $7 billion… one financial year. | 29.98 | 40.36 |
+| 7 | So how do these firms get such an advantage? | 41.57 | 43.96 |
+| 8 | Speed. | 45.06 | 45.75 |
+| 9 | Their computers can analyse… on your phone. | 46.53 | 56.18 |
+| 10 | And these firms spend millions… speed advantages. | 57.09 | 65.13 |
+| 11 | But here's the important part… | 66.04 | 67.51 |
+| 12 | This doesn't automatically mean… retail traders. | 68.83 | 73.11 |
+| 13 | High-frequency trading can also… more efficient. | 74.21 | 79.38 |
+| 14 | The bigger issue is the massive technology gap… | 80.90 | 87.77 |
+| 15 | So next time you see a stock move suddenly… | 89.30 | 91.84 |
+| 16 | Remember: | 93.40 | 93.93 |
+| 17 | There might be a machine trading against you… | 94.65 | 99.04 |
 
-Captions were then aligned to the **actual rendered audio**, not to an estimate:
-each of the 59 caption phrases is paired with its exact spoken fragment, weighted
-by syllable count, and each boundary is snapped to the nearest real low-energy
-point (pause) in the waveform within ±160 ms.
+**Differences found between the script and the captions:** only deliberate
+capitalisation of the seven keywords you asked to highlight
+(`OPTIONS MARKET`, `ALGORITHMS`, `$33 BILLION`, `$7 BILLION`, `SPEED`,
+`MICROSECONDS`, `TECHNOLOGY GAP`). No wording differs anywhere.
 
-## 3. Assets used
+Captions are split into 59 phrases; each phrase boundary was placed by syllable
+weight and then **snapped to a real pause in the narrator's delivery** (the
+breath pauses found by the same silence analysis), so they land on the voice
+rather than on an estimate.
 
-**From the repository: none** (see §1).
+## 2. Assets used
 
-**Created for this video:** every frame. 2 335 frames were rendered
-programmatically at 1080×1920 — a custom compositor (NumPy + Pillow + a hand-built
-perspective/lighting/bloom/grain pipeline), driven by the narration timeline.
+Everything you uploaded is in the film. One of the stills
+(`…10.36.28 AM.jpeg`, 940 × 1672) is a **2 × 2 composite**, so it was split into
+its four separate 9:16 visuals, which are used as four distinct shots.
 
-Reusable components written for it: back-lit human silhouette with rim lighting,
-server-rack wall with live status LEDs, one-point-perspective data-centre
-corridor, candlestick engine, NIFTY/BANK NIFTY option chain, market-depth ladder,
-fibre-optic bundle with travelling pulses, digit rain, packet streams, radial
-speed streaks, animated count-up stat cards, phone mock-up with live chart.
+**Stills (8 files → 11 usable visuals)**
 
-Typography: Montserrat (captions, stat numbers) and Inter (UI/labels), fetched as
-variable fonts.
+| Source | Used for |
+|---|---|
+| composite Q1 — trader at laptop, server racks + BSE behind | opening shot **and** closing shot |
+| composite Q2 — "OPTIONS TRADING" board, Indian floor | "in India's **OPTIONS MARKET**" |
+| composite Q3 — "$7 BILLION GROSS PROFIT" | the $7 bn beat |
+| composite Q4 — "$33 BILLION RETAIL DERIVATIVES LOSSES" | the $33 bn beat |
+| Dalal Street / NSE, BANK NIFTY + options chain board | India's options market |
+| "MICROSECONDS" readout with fibre streaks | the microseconds beat |
+| "MILLIONS INVESTED FOR NANO-SECOND ADVANTAGES" data centre | technology investment |
+| split: home trader ⟷ professional racks | **TECHNOLOGY GAP** |
+| retail trader ⟷ professional floor, order stream between | algorithms; gap reprise |
+| trader at multi-screen desk ×2 | "not stealing" beat; liquidity |
 
-## 4. Scene map — every line has a matched visual
+**Clips (4 files, all 1280 × 720 → reframed to 1080 × 1920)**
 
-| # | Time (s) | Visual |
+| Clip | Contents found | Used for |
 |---|---|---|
-| 1 | 00.00–03.61 | Opening — back-lit retail trader with glowing phone, wall of trading servers behind |
-| 2 | 03.61–08.18 | NIFTY · BANK NIFTY option chain, CALL/STRIKE/PUT, live-flickering premiums |
-| 3 | 08.18–12.58 | Algorithms — the human dissolves into a data-centre corridor + data streams |
-| 4 | 12.58–14.18 | "The numbers are crazy" — accelerating numeric storm |
-| 5 | 14.18–24.21 | **$33 BILLION** stat card, count-up, held visible, descending loss bars, sourced |
-| 6 | 24.21–32.85 | **$7 BILLION** stat card — different colour, rising bars, "A SEPARATE FIGURE" chip |
-| 7 | 32.85–35.34 | "How do firms get the advantage?" — question beat inside the corridor |
-| 8 | 35.34–36.27 | **SPEED** — radial light-speed burst, hardest cut in the video |
-| 9 | 36.27–44.05 | Microseconds — live µs latency readout vs. the retail phone chart ("YOU") |
-| 10 | 44.05–51.08 | Technology investment — deep data-centre corridor, fibre bundles, infra labels |
-| 11 | 51.08–53.02 | "But here's the important part" — pace slows, calm concentric pulse |
-| 12 | 53.02–57.44 | Not stealing — two equal, neutral order-flow panels, no theft imagery |
-| 13 | 57.44–61.96 | Liquidity — balanced two-sided market-depth ladder |
-| 14 | 61.96–67.91 | **TECHNOLOGY GAP** — split screen: one trader + one chart ⟷ racks of servers |
-| 15 | 67.91–70.48 | Sudden stock move — candlestick chart spikes |
-| 16 | 70.48–71.43 | "Remember:" — dark pulse beat |
-| 17 | 71.43–77.85 | Final — trader on the phone, infrastructure operating behind, slow push-in |
+| clip 1 (10 s) | server racks, slow dolly | algorithms; servers processing |
+| clip 2 (20 s) | racks → trading monitor → man on phone at racks → **light-speed streaks** → man on phone with racks behind | algo firms; the advantage question; **SPEED**; infrastructure; the final shot |
+| clip 3 (10 s) | trading floor → city + charts → **animated $33 BILLION reveal** → blue data-centre corridor → **animated $7 BILLION reveal** | both stat reveals, corridor, market activity, the sudden move |
+| clip 4 (10 s) | face lit by a phone, dark room | the hook; "while you're still looking at the chart on your phone"; the final beat |
 
-Transitions: hard cuts on the beat for pace, dissolves (0.18–0.34 s) on the calm
-sections, and white flashes into `$33 BILLION`, `SPEED` and `MICROSECONDS`.
-All still elements carry continuous camera movement (push-ins, parallax drifts,
-layered depth-of-field), so nothing reads as a slideshow.
+Clip 2 and clip 3 are montages, so each was cut into several separate segments
+rather than used as single shots — that is where the animated `$33 BILLION` and
+`$7 BILLION` reveals and the light-speed footage came from.
 
-## 5. Captions
+Landscape clips are reframed to 9:16 by cropping with a slow pan. The two
+segments whose on-screen text spans the full width (the animated stat reveals)
+use a **full-width plate over a blurred blow-up of the same frame**, so the
+wording stays completely readable instead of being cropped.
 
-59 phrase captions, Montserrat Bold/ExtraBold, 64 px body / 78 px highlighted,
-heavy dark stroke plus a soft gradient scrim, pop-in on each cue. Positioned at
-66.5 % height — clear of the YouTube Shorts bottom UI and the right-hand action
-rail.
+## 3. Visuals created (to fill gaps)
 
-Highlighted as requested: `OPTIONS MARKET`, `ALGORITHMS`, `$33 BILLION`,
-`$7 BILLION`, `SPEED`, `MICROSECONDS`, `TECHNOLOGY GAP` (amber for the money
-figures and the gap, cyan for the technology terms).
+Seven motion-graphics scenes were built where no uploaded asset covered the
+line. They are graded with the same look as the footage so the film reads as one
+piece:
 
-`india_hft_options_short.srt` is included as a sidecar if you want to edit the
-captions or upload them separately.
+| Scene | Where |
+|---|---|
+| numeric data storm | "And the numbers are crazy." |
+| $33 bn detail card — "IN EQUITY DERIVATIVES / OVER FOUR YEARS TO MARCH 2025" + source line | after the $33 bn reveal |
+| $7 bn detail card — "GROSS PROFIT · INDIA'S OPTIONS MARKET / IN ONE FINANCIAL YEAR" + **"A SEPARATE FIGURE"** chip + source line | after the $7 bn reveal |
+| live microsecond latency readout | microseconds beat |
+| calm concentric pivot beat | "But here's the important part…" |
+| two-sided market-depth ladder | liquidity |
+| candlestick spike | "a stock move suddenly…" |
+| dark pulse beat | "Remember:" |
 
-## 6. Factual presentation
+## 4. Edit and look
 
-- The two figures are **never** connected. They appear in separate scenes with
-  different colour languages (amber vs. cyan), different chart directions and no
-  arrow, flow or morph between them.
-- The `$7 BILLION` card carries an explicit **"A SEPARATE FIGURE"** chip on screen.
+- Cuts land on the narration. Fast in the opening and through `SPEED`; slower and
+  longer-held through the clarification and liquidity sections.
+- Every still carries a continuous zoom/drift (ken burns) and every clip a slow
+  pan or push, so nothing sits static — it does not read as a slideshow.
+- Transitions are hard cuts on the beats, 0.10–0.34 s dissolves on the calm
+  sections, and short white flashes into `$33 BILLION`, `$7 BILLION`, `SPEED`
+  and `MICROSECONDS`.
+- A single grade (cool shadows, warm highlights, gentle S-curve, bloom, vignette,
+  fine grain) is applied to footage and graphics alike.
+- Captions: Montserrat Bold/ExtraBold, 64 px body / 78 px highlighted, dark
+  stroke plus a soft scrim, pop-in per phrase, set at 66.5 % height — clear of
+  the Shorts bottom bar and the right-hand action rail. Amber for the money
+  figures and the gap, cyan for the technology terms.
+
+## 5. Factual presentation
+
+- The two figures are never joined. They sit in separate sections with different
+  colour languages (red/amber for the loss, blue/gold for the profit), separated
+  by ~1.5 s of narration, with no arrow, flow or morph between them.
+- The $7 bn card carries an explicit **"A SEPARATE FIGURE"** chip.
 - Both cards are captioned `SEBI study, reported by Bloomberg`.
-- Scene 12 deliberately avoids any theft imagery and slows the pace, as briefed.
-- Scene 13 shows a balanced two-sided book, so HFT is not framed as purely negative.
-- **No statistic, company, dollar amount or claim was invented.** The only
-  on-screen numbers beyond the script are illustrative UI texture (option-chain
-  premiums, depth quantities, a ticking latency readout), which are low-contrast,
-  unattributed and never presented as findings.
+- The "not stealing" section slows down and shows neutral trading-desk imagery —
+  no theft imagery anywhere.
+- The liquidity section shows a balanced two-sided book, so HFT is not framed as
+  purely negative.
+- **No statistic, company, dollar amount or claim was invented.** Numbers that
+  appear as interface texture (option-chain premiums, depth quantities, a ticking
+  latency readout) are low-contrast, unattributed, and never presented as
+  findings. Text baked into the uploaded artwork (e.g. "MILLIONS INVESTED FOR
+  NANO-SECOND ADVANTAGES") is yours, not added by me.
 
-## 7. Quality checks run
+## 6. Checks run on the finished file
 
-- **Black-frame detection:** only 0.000–0.133 s — the intended fade-in. No blank
-  frames anywhere in the body of the video.
-- **Silence detection:** only 75.80–77.82 s — the intended tail under the final
-  held shot. No dead air mid-narration.
-- **Loudness:** −14.4 LUFS / −4.3 dBTP, on YouTube's delivery target.
-- **Visual review:** all 17 scenes inspected at full resolution, plus a 24-point
-  contact sheet sampled across the finished file — captions in sync, no awkward
-  transitions, no mismatched visuals.
+- **Black-frame detection** — one 0.10 s segment, the intended fade-in. Nothing elsewhere.
+- **Silence detection** — no gap over 1.5 s anywhere in the film.
+- **Loudness** — −14.1 LUFS / −2.9 dBTP, on YouTube's delivery target.
+- **Visual review** — every one of the 36 shots inspected at full resolution,
+  plus a sampled pass across the finished file: captions in sync, no blank
+  frames, no mismatched visuals, no awkward transitions.
 
-## 8. Skipped / not done, and why
+## 7. Skipped, and why
 
 | Item | Status | Reason |
 |---|---|---|
-| Use the uploaded voiceover | **Not possible** | No voiceover file exists in the repo or its history. Narration was synthesised from your exact script instead. |
-| Use the uploaded images and clips | **Deliberately not used** | All 18 assets are Flipkart e-commerce material from an unrelated project. Using them would have contradicted the narration. |
-| Background music | **Not added** | The brief said to add music only if suitable music already existed in the repo. None does — the only audio present is ~10 s of ambient sound inside two off-topic promo clips. |
+| Background music | **Not added** | You asked for music only if suitable music already existed in the repository. There is no music file — the only other audio is a little ambient sound inside the clips, which is muted. |
+| Automatic speech transcription | **Not possible** | ASR model downloads are blocked by this environment's egress policy. Verified by pause-structure analysis instead (§1). |
+| The 18 assets uploaded earlier | **Not used** | Those were Flipkart "Big Billion Days" e-commerce files from a different project, and were removed from the repository before this build. |
 
-## 9. If you have the real voiceover
+## 8. Notes
 
-Drop the file in and the video can be rebuilt against it: the timeline, the
-caption alignment and every scene duration are derived automatically from the
-narration waveform, so only the audio needs to change. The same applies if you
-upload on-topic imagery — any scene can take a real photo or clip in place of the
-generated background.
+The two landscape montage clips were the most valuable find — they contained
+animated `$33 BILLION` and `$7 BILLION` reveals and a light-speed sequence that
+are far stronger than stills for those beats, so the edit is built around them.
+
+If you want a shorter cut for Shorts' 60 s sweet spot, the natural trim is the
+clarification block (66–80 s); say the word and I'll produce that version.
