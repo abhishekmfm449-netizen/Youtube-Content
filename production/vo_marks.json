@@ -1,0 +1,202 @@
+{
+ "sr": 24000,
+ "duration": 78.62479166666667,
+ "marks": [
+  {
+   "id": "A1",
+   "caption": "Flipkart just changed the game",
+   "start": 0.45,
+   "end": 2.081,
+   "gap": 0.07500000000000001
+  },
+  {
+   "id": "A2",
+   "caption": "for its biggest sale of the year.",
+   "start": 2.156,
+   "end": 3.876,
+   "gap": 0.315
+  },
+  {
+   "id": "B1",
+   "caption": "The Big Billion Days sale",
+   "start": 4.191,
+   "end": 5.6694,
+   "gap": 0.06
+  },
+  {
+   "id": "B2",
+   "caption": "was originally scheduled to start in October\u2026",
+   "start": 5.7294,
+   "end": 8.3567,
+   "gap": 0.36
+  },
+  {
+   "id": "C1",
+   "caption": "But Flipkart has now introduced",
+   "start": 8.7167,
+   "end": 10.5931,
+   "gap": 0.06
+  },
+  {
+   "id": "C2",
+   "caption": "an early-bird sale from September 24.",
+   "start": 10.6531,
+   "end": 13.3575,
+   "gap": 0.44999999999999996
+  },
+  {
+   "id": "D1",
+   "caption": "And if you\u2019re planning to buy a new smartphone\u2026",
+   "start": 13.8075,
+   "end": 16.3074,
+   "gap": 0.315
+  },
+  {
+   "id": "D2",
+   "caption": "you might want to wait.",
+   "start": 16.6224,
+   "end": 17.8718,
+   "gap": 0.43499999999999994
+  },
+  {
+   "id": "E1",
+   "caption": "The iPhone 17 is expected to get a major discount,",
+   "start": 18.3068,
+   "end": 22.1767,
+   "gap": 0.12
+  },
+  {
+   "id": "E2",
+   "caption": "potentially dropping below \u20b980,000 during the sale.",
+   "start": 22.2967,
+   "end": 25.9903,
+   "gap": 0.43499999999999994
+  },
+  {
+   "id": "F1",
+   "caption": "Samsung is also in the game.",
+   "start": 26.4253,
+   "end": 28.157,
+   "gap": 0.27
+  },
+  {
+   "id": "F2",
+   "caption": "The Galaxy S25 is being teased at under \u20b960,000,",
+   "start": 28.427,
+   "end": 32.9153,
+   "gap": 0.165
+  },
+  {
+   "id": "F3",
+   "caption": "while the Galaxy S25 FE could drop below \u20b950,000.",
+   "start": 33.0803,
+   "end": 37.807,
+   "gap": 0.39
+  },
+  {
+   "id": "G1",
+   "caption": "And there\u2019s more.",
+   "start": 38.197,
+   "end": 39.0865,
+   "gap": 0.27
+  },
+  {
+   "id": "G2",
+   "caption": "Eligible Axis Bank and ICICI Bank card users",
+   "start": 39.3565,
+   "end": 43.0943,
+   "gap": 0.07500000000000001
+  },
+  {
+   "id": "G3",
+   "caption": "can get an additional 10% discount,",
+   "start": 43.1693,
+   "end": 45.5964,
+   "gap": 0.22499999999999998
+  },
+  {
+   "id": "G4",
+   "caption": "while Flipkart Axis Bank Credit Card users",
+   "start": 45.8214,
+   "end": 48.5304,
+   "gap": 0.07500000000000001
+  },
+  {
+   "id": "G5",
+   "caption": "can also get an instant 10% discount.",
+   "start": 48.6054,
+   "end": 51.3056,
+   "gap": 0.255
+  },
+  {
+   "id": "G6",
+   "caption": "super.money users can get 10% cashback.",
+   "start": 51.5606,
+   "end": 54.2316,
+   "gap": 0.405
+  },
+  {
+   "id": "H1",
+   "caption": "But remember\u2026",
+   "start": 54.6366,
+   "end": 55.5588,
+   "gap": 0.39
+  },
+  {
+   "id": "H2",
+   "caption": "these teased prices aren\u2019t necessarily the final prices.",
+   "start": 55.9488,
+   "end": 59.4869,
+   "gap": 0.39
+  },
+  {
+   "id": "I1",
+   "caption": "The main Big Billion Days sale",
+   "start": 59.8769,
+   "end": 61.6249,
+   "gap": 0.06
+  },
+  {
+   "id": "I2",
+   "caption": "officially starts October 9, according to Flipkart.",
+   "start": 61.6849,
+   "end": 64.9026,
+   "gap": 0.39
+  },
+  {
+   "id": "J1",
+   "caption": "So if you\u2019re planning to buy an iPhone or Samsung flagship\u2026",
+   "start": 65.2926,
+   "end": 68.7585,
+   "gap": 0.30000000000000004
+  },
+  {
+   "id": "J2",
+   "caption": "September 24 onwards,",
+   "start": 69.0585,
+   "end": 70.9778,
+   "gap": 0.12
+  },
+  {
+   "id": "J3",
+   "caption": "keep your Flipkart app ready.",
+   "start": 71.0978,
+   "end": 72.8437,
+   "gap": 0.34500000000000003
+  },
+  {
+   "id": "J4",
+   "caption": "Because this year\u2019s festive smartphone deals",
+   "start": 73.1887,
+   "end": 75.7127,
+   "gap": 0.07500000000000001
+  },
+  {
+   "id": "J5",
+   "caption": "could get very interesting.",
+   "start": 75.7877,
+   "end": 77.35,
+   "gap": 1.275
+  }
+ ]
+}
